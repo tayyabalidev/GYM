@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.navbar{
+	background: orange;
+
+}
+.nav-link:hover{
+	background: black;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+span{
+	color: black;
+	color: orange;
+}
+/*section*/
+.section{
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(my/img/jim.jpg);
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	background-attachment: fixed;
+
+}
+.card1{
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+	color: white;
+	height: 160px;
+	margin-top: 70px;
+}
+.btn:hover{
+	background-color: black;
+	color: orange;
+}
+.btn1{
+	background: orange;
+	border: none;
+	height: 35px;
+	width: 20%;
+	border-radius: 10px;
+	color: black;
+}
+.btn1:hover{
+	
+	color: white;
+	
+}
+.fa-thin{
+	color: white;
+}
+.btn2{
+	height: 40px;
+	width: 15px;
+	background: orange;
+	color: black;
+	border-radius: 5px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.Give{
+	font-size: 70px;
+}
+.modal-body{
+    background: black;
+    color: white;
+}
+.modal-header{
+	background: black;
+	color: white;
+}
+.modal-footer{
+	background: black;
+	color: white;
+}
+/*card*/
+.btn0{
+	background: orange;
+	border: none;
+	height: 35px;
+	width: 30%;
+	border-radius: 5px;
+	margin:auto;
+}
+.btn0:hover{
+	background-color: white;
+	color: black;
+	border:1px solid orange;
+}
+.card{
+	height: 300px;
+	width: 90%;
+}
+/*about-us*/
+.about-us{
+	background: orange;
+}
+.about{
+	margin-left: 140px;
+}
+.btn3{
+	border: none;
+	height: 35px;
+	width: 20%;
+	background: black;
+	color: white;
+	margin-left: 150px;
+	border-radius: 5px;
+}
+.btn3:hover{
+	background-color: white;
+	color: black;
+	border:1px solid black;
+}
+.classes1{
+	background-image: url(my/img/boyjim.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	padding-top: 250px;
+	padding-left: 10px;
+	color: white;
+	
+}
+.classes2{
+	background-image: url(my/img/boxgirl.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	padding-top: 250px;
+	padding-left: 10px;
+	color: white;
+}
+.classes3{
+	background-image: url(my/img/relex.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	padding-top: 250px;
+	padding-left: 10px;
+	color: white;
+}
+.card-body{
+	background: hsl(0, 0%, 95%);
+	height: 100px;
+}
+.card-body img{
+	height: 100px;
+	width: 100px;
+}
+/*FAQ*/
+.FAQ{
+	background: black;
+	color: white;
+}
+.accordion-button:hover{
+    background: none;
+}
+/*footer*/
+.footer{
+	background: orange;
+}
